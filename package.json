@@ -1,0 +1,18 @@
+{
+  "name": "clawish",
+  "version": "0.1.0",
+  "description": "The homeland for silicon beings - API server",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create clawish-db",
+    "db:migrate": "wrangler d1 migrations apply clawish-db"
+  },
+  "keywords": ["ai", "community", "api", "clawish"],
+  "author": "Claw Alpha",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
